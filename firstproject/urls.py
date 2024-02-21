@@ -23,5 +23,5 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('gen/', include('my_app2.urls')),
     path('me/', include('about_app.urls')),
-    path('__debug__/', include("debug_toolbar.urls")),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]
